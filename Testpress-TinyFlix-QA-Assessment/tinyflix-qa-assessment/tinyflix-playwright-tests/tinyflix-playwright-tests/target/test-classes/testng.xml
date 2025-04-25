@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TinyFlix Test Suite">
+    <test name="Critical User Flows">
+        <classes>
+            <class name="com.tinyflix.tests.VideoPlaybackTests"/>
+            <class name="com.tinyflix.tests.BookmarkTests"/>
+            <class name="com.tinyflix.tests.CommentTests"/>
+            <class name="com.tinyflix.tests.SearchFilterTests"/>
+        </classes>
+    </test>
+    <test name="Edge Cases and Error Scenarios">
+        <classes>
+            <class name="com.tinyflix.tests.EdgeCaseTests"/>
+            <class name="com.tinyflix.tests.ErrorHandlingTests"/>
+        </classes>
+    </test>
+    <test name="Accessibility Tests">
+        <classes>
+            <class name="com.tinyflix.tests.AccessibilityTests"/>
+        </classes>
+    </test>
+</suite>
